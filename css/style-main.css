@@ -129,12 +129,12 @@ h6{font-family: 'Oswald', sans-serif!important;}
 
 .right-skills:after {
     bottom: 0px;
-    margin-left: 10px !important;
+    
 }
  
 .right-skills:before {
     top: 0px;
-    margin-left: 10px !important;
+   
 }
 .left-address span {
     width: 84px;
