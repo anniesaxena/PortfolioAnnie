@@ -33,7 +33,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     margin: 0px;
 }
 .no-padding {
-    padding: 0px;
+    padding-left: 0px;
 }
 .bg-color-left{background:#f7f7f7;}
 .bg-color-right{
@@ -232,11 +232,12 @@ h6{font-family: 'Oswald', sans-serif!important;}
 }
 .carttitle-wrapper {
     
-    max-width: 100%;
+    width: 860px;
     margin-right: 0;
     margin-left: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: #000;
+    overflow: hidden;
 }
 .address-right-box i.fa {
     margin-right: 15px;
@@ -245,6 +246,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
 }
 .col-md-6.no-padding.bg-color-left {
     padding-bottom: 30px;
+   
 }
 .skill-name ul li {
     list-style: none;
@@ -560,7 +562,23 @@ button#green-color {
 }
 
 @media(max-width: 999px){
-    .container.no-padding {
-        display: block;
+    .right-skills h3{
+    	margin-left: 8rem;
+    }
+    .right-skills h4{
+    	margin-left: 1.5rem;
+    }
+    .right-skills .progress-bar{
+    	padding-left: 1rem;
+    	padding-right: -2rem;
+    }
+    .intetst-icons{
+    	margin-left: 1rem;
+    }
+    .education-right{
+    	margin-left: 1rem;
+    }
+    .education-right h3{
+    	margin-left: 6rem;
     }
 }
