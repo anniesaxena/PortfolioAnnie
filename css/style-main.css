@@ -33,7 +33,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     margin: 0px;
 }
 .no-padding {
-    padding-left: 0px;
+    padding: 0px;
 }
 .bg-color-left{background:#f7f7f7;}
 .bg-color-right{
@@ -566,7 +566,7 @@ button#green-color {
     	margin-left: 8rem;
     }
     .right-skills h4{
-    	margin-left: 1.5rem;
+    	margin-left: 2rem;
     }
     .right-skills .progress-bar{
     	padding-left: 1rem;
