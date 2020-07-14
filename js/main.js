@@ -13,10 +13,6 @@ jQuery(document).ready(function(){
 		$logo.fadeOut('slow');
 	});
 
-	$(".pulse-button").click(function(e){
-		$(".socialicons").toggleClass("main");
-	});
-
 	$('#yellow-color').click(function (e) {
 		$(".main-wrapper-resume").attr("id","yellow");
 	});
