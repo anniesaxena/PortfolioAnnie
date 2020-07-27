@@ -394,6 +394,12 @@ div.ex-box h2 a{
 .left-address li a{
 	color: black;
 }
+#setting-icon{
+	font-size: 10px;
+}
+#setting-icon i{
+	font-size: 20px;
+}
 
 
 
