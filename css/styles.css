@@ -402,6 +402,45 @@ div.ex-box h2 a{
 	font-size: 20px;
 }
 
+section.certificates .wrapper{
+	display: grid;
+	grid-gap: 60px;
+	align-items: center;
+	padding: 50px;
+}
+
+section.certificates .wrapper .certi-tab{
+	background-color: #211F1F;
+	padding: 50px;
+	border-radius: 30px;
+	display: flex;
+	transition: all .3s ease-in-out;
+}
+
+section.certificates .wrapper .certi-tab:hover{
+	background-color: rgba(0, 0, 0, 0.308);
+}
+
+section.certificates .wrapper .certi-tab .left{
+	padding: 10px;
+}
+
+section.certificates .wrapper .certi-tab .right{
+	padding: 20px;
+	border: 5px solid #cf455c;
+	width: 500px;
+}
+
+section.certificates .wrapper .certi-tab .right h5{
+	color: white;
+}
+section.certificates .wrapper .certi-tab .right a{
+	color: rgb(199, 119, 119);
+}
+section.certificates .wrapper .certi-tab .right p{
+	color: white;
+	font-size: smaller;
+}
 
 
 /* responsiveness*/
